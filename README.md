@@ -23,7 +23,7 @@ The *classic* **Smith-Waterman Similarity Score** is higher for larger sequences
 
 **Bleakley-Yamanishi Normalized Smith-Waterman Similarity Score** was first described in [this paper.](https://academic.oup.com/bioinformatics/article/25/18/2397/197654?login=true) and was subsequently used by other researchers in this field(see [this paper.](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-015-0089-z)).
 
-The settings for the pairwise alignment are similar to the default paramters of [EMBOSS Water PSA](https://www.ebi.ac.uk/Tools/psa/emboss_water/) program hosted at * European Bioinformatic Institute(EBI) * website :
+The settings for the pairwise alignment are similar to the default paramters of [EMBOSS Water PSA](https://www.ebi.ac.uk/Tools/psa/emboss_water/) program hosted at **European Bioinformatic Institute(EBI)** website :
 
 >Substitution Matrix = BLOSUM62, Gap open = 10, Gap extend = 0.5
 
@@ -42,9 +42,9 @@ This particular formula taken from Bleakley et al (2009), is the heart of this s
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-- The script takes about * a minute or so * provided that the number of sequences are below 50. For fasta files which contain 1000 unique sequences and more, it takes around * 24 hours * for the tasks to complete! 
+- The script takes about *a minute or so* provided that the number of sequences are below 50. For fasta files which contain 1000 unique sequences and more, it takes around *24 hours* for the tasks to complete! 
 - For larger sequences, one might use parallelization. I have to use `parallel` package of R, if I want to implement parallelization in the future.
-- I have provided five datasets, containing the sequences of various proteins of human proteome. * "16_Selected_Proteins.txt" * and * "38_Selected_Proteins" * can be used as demo datasets to test the scripts. The other three datasets, contain much more sequences and it takes more than a day for my system to execute them. Parallelization might be helpful to reduce the needed time.
+- I have provided five datasets, containing the sequences of various proteins of human proteome. *"16_Selected_Proteins.txt"* and *"38_Selected_Proteins"* can be used as demo datasets to test the scripts. The other three datasets, contain much more sequences and it takes more than a day for my system to execute them. Parallelization might be helpful to reduce the needed time.
 
 **NOTE:** As always, I have put the Expected_Results folder which contains the files that the R script generates once you run it.
 
