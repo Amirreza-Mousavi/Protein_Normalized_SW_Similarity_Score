@@ -44,7 +44,7 @@ This particular formula taken from Bleakley et al (2009), is the heart of this s
 
 - The script takes about *a minute or so* provided that the number of sequences are below 50. For fasta files which contain 1000 unique sequences and more, it takes around *24 hours* for the tasks to complete! 
 - For larger sequences, one might use parallelization. I have to use `parallel` package of R, if I want to implement parallelization in the future.
-- I have provided five datasets, containing the sequences of various proteins of human proteome. All of these five files are taken from Uniprotkb. *"16_Selected_Proteins.txt"* and *"38_Selected_Proteins.txt"* can be used as demo datasets to test the scripts. The other three datasets, contain much more sequences and it takes more than a day for my system to execute them. Parallelization might be helpful to reduce the needed time.
+- I have provided five datasets, containing the sequences of various proteins of human proteome. All of these five files are taken from Uniprotkb. *"16_Selected_Proteins.txt"* and *"38_Selected_Proteins.txt"* can be used as demo datasets to test the script. The other three datasets, contain much more sequences and it takes more than a day for my system to execute them. Parallelization might be helpful to reduce the needed time.
 
 **NOTE:** As always, I have put the Expected_Results folder which contains the files that the R script generates once you run it.
 
