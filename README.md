@@ -41,6 +41,11 @@ This particular formula taken from Bleakley et al (2009), is the heart of this s
 >Maryam Bagherian, Elyas Sabeti, Kai Wang, Maureen A Sartor, Zaneta Nikolovska-Coleska, Kayvan Najarian, Machine learning approaches and databases for prediction of drug–target interaction: a survey paper, Briefings in Bioinformatics, Volume 22, Issue 1, January 2021, Pages 247–269, https://doi.org/10.1093/bib/bbz157
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+- The script takes about * a minute or so * provided that the number of sequences are below 50. For fasta files which contain 1000 unique sequences and more, it takes around * 24 hours * for the tasks to complete! 
+- For larger sequences, one might use parallelization. I have to use `parallel` package of R, if I want to implement parallelization in the future.
+- I have provided five datasets, containing the sequences of various proteins of human proteome. "16_Selected_Proteins.txt" and "38_Selected_Proteins" can be used as demo datasets to test the scripts. The other three datasets, contain much more sequences and it takes more than a day for my system to execute them. Parallelization might be helpful to reduce the needed time.
+
 **NOTE:** As always, I have put the Expected_Results folder which contains the files that the R script generates once you run it.
 
 **NOTE:** ~~Make sure to edit setwd command in the R script to point at your desired directory.~~ In this particular repository, it is not necessary because of the *here* package. However you can consider to do it manually in case the script somehow does not work for you.
