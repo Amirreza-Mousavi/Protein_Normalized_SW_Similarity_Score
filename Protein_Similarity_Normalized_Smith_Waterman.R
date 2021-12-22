@@ -94,6 +94,7 @@ rownames(res)=unlist(l)
 print(res)
 write.csv(res,"result.txt")
 
-####1/res is a measure of dissimilarity (how to reach dissimilarity from similarity?)
+####if res is a similarity matrix, 1/res is a measure of dissimilarity which could be used by hclust. 
+####Using "1/res" is not an elegant way for this task, it must be updated later.
 
 plot(hclust(as.dist(1/res,diag = TRUE,upper = TRUE)))
