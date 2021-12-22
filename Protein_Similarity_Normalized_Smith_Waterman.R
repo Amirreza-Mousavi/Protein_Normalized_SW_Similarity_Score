@@ -50,7 +50,7 @@ BY.Norm.SW.SS = function(AAstring1,AAstring2){
 }
 
 ###Import your fasta files here
-myseq=readAAStringSet("Uniprot_GPCR_Human_Reviewed_Canocial_and_Isoform.txt")
+myseq=readAAStringSet("16_Selected_Proteins.txt")
 
 N=length(myseq)
 
