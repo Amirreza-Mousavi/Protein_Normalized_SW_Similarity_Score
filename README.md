@@ -29,6 +29,7 @@ Bleakley-Yamanishi Normalized Smith-Waterman Similarity Score was first describe
 Further Readings :
 
 >Kevin Bleakley, Yoshihiro Yamanishi, Supervised prediction of drug–target interactions using bipartite local models, Bioinformatics, Volume 25, Issue 18, 15 September 2009, Pages 2397–2403, https://doi.org/10.1093/bioinformatics/btp433
+
 >Seal, A., Ahn, YY. & Wild, D.J. Optimizing drug–target interaction prediction based on random walk on heterogeneous networks. J Cheminform 7, 40 (2015). https://doi.org/10.1186/s13321-015-0089-z
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
