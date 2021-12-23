@@ -19,7 +19,7 @@ install.packages("here")
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## More Details
 In the area of Drug-Target Interaction *(DTI)* prediction and Computer-Aided Drug Design *(CADD)* , most of the times, it is necessary to express the proteins and the drugs as a series of features and attributes that help us train our prediction model more efficiently. **Bleakley-Yamanishi Normalized Smith-Waterman Similarity Score** is one of the ways to rate and cluster a pair of proteins based on the similarity of their sequences.
-The *classic* **Smith-Waterman Similarity Score** is higher for larger sequences and lower for small sequences. The normalization process, helps to neutralize the influence of the length of the pairs of the sequence on the similarity score, hence the name normalzied similarity score.
+The *classic* **Smith-Waterman Similarity Score** is higher for larger sequences and lower for small sequences. The normalization process, helps to neutralize the influence of the length of the pairs of the sequence on the similarity score, hence the name normalized similarity score.
 
 **Bleakley-Yamanishi Normalized Smith-Waterman Similarity Score** was first described in [this paper.](https://academic.oup.com/bioinformatics/article/25/18/2397/197654?login=true) and was subsequently used by other researchers in this field(see [this paper.](https://jcheminf.biomedcentral.com/articles/10.1186/s13321-015-0089-z)).
 
